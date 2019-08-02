@@ -1,0 +1,25 @@
+.home {
+  .nav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #ccc;
+    i {
+      font-size: 20px;
+    }
+    li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      padding-top: 6px;
+      a {
+        color: #666;
+
+        &.active {
+          color: red;
+        }
+      }
+    }
+  }
+}
