@@ -1,9 +1,9 @@
 import React from 'react'
 
-class 首页 extends React.Component {
+class Index extends React.Component {
   render() {
-    return <div>首页组件</div>
+    return <div>Index组件</div>
   }
 }
 
-export default 首页
+export default Index
